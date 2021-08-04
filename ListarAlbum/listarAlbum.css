@@ -1,0 +1,46 @@
+li img{
+	width: 130px ;
+	float: left;
+
+}
+li section{
+	margin-top: 20px;
+	color: #fff;
+	padding: 20px;
+	padding-top: 10px;
+	border: 5px solid #A020F0;
+}
+li{
+overflow: auto;
+}
+#espaçoAlbum li{
+   float: left;
+}
+#listaAlbuns{
+	clear: both;
+}
+#divBusca{
+  margin-top: 50px;
+  background-color:#2F4F4F;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:35px;
+  width:260px;
+}
+#botaobusca{
+	float: left;
+}
+#conteudo{
+	float: right;
+	overflow: auto;
+}

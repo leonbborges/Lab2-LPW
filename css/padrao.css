@@ -1,0 +1,121 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+
+}
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+/*formatação dos links*/
+.logo a:hover{
+  background-color: #bdbebd;
+  color: rgb(8, 56, 189);  
+  
+}
+
+.logo{
+	background-color: #9e9e9e;
+	height: 100px;
+	padding: 30px 20px 0px 150px;
+	
+}
+.logo a{	
+	margin-left: 25px;
+	padding: 40px 20px 40px 20px;
+	text-decoration: none;	
+	color: blueviolet;
+	text-shadow: 1px 1px  #111111;	
+}
+
+.logo ul{
+float: right;
+min-height: auto;
+width: 40%;
+height: 100%;
+list-style: none;
+margin-top: 10px;
+}
+
+.logo ul li{
+display: inline;
+}
+
+#conteudo{
+  clear: both;
+  width: 90% ;/* 520px*/
+  float: right; 
+  background-image: url("../imagens/music.jpg");
+  background-size:100%;
+  height: 601px;
+  margin-top: -10px;
+}
+
+.container h1{
+	color: #f1f1f1;
+	margin-top: 60px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #70017a;
+}
+
+.container p{
+	color: blueviolet;
+	font-size: 20px;
+	margin: 50px 150px 50px  150px;
+	text-align: justify;
+	text-shadow: 1px 1px 1px #6001dd;	
+}
+
+.container{
+	background-color: rgba(0,0,0,0.3);
+	
+}
+
+#dashbord{
+ width: 10% ; /*180px*/ 
+ margin-top: -10px;
+ margin-bottom: -2px;
+ height: 601px;
+ float: left;
+ padding-top: 160px;
+ background:#9e9e9e;
+}
+
+#dashbord ul li{
+	padding: 15px;		
+}
+
+#dashbord ul li a{
+	text-decoration: none;
+	color: blueviolet;
+	text-shadow: 1px 1px  #111111;
+}
+
+#dashbord ul{	
+	margin-left: 10px
+}
+
+#dashbord ul li a:hover{
+	color: #fff;  
+}
+
+#rodape{
+	clear: both;
+	padding: 5px;
+	background: #c4c4c4;
+}
+
+#rodape{
+	text-align: center;
+}
+
+/*formataçaõ do conteudo: */
+#conteudo img{
+	background-size: 100%;
+}
+#espaço{
+	min-width: 720px;
+}

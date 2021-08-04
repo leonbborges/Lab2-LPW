@@ -1,0 +1,75 @@
+h2{
+  width: 90%;
+  float: right;  
+}
+h6{
+  width: 90%;
+  float: right; 
+}
+.col-12 {
+  width: 90%;
+  float: right; 
+  padding-top: 30px;
+}
+.col-12 h4{
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aqua;
+}
+h5 {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aqua;
+}
+
+.col-md-8 label{
+  padding-right: 20px;
+}
+
+#inputNomeArtista{
+  width: 40%;
+}
+
+.col-md-4 .label2{
+  padding-left: 210px;
+}
+
+.col-md-2 label{
+  padding-right: 30px;
+}
+
+#inputalbum{
+  width: 20%;
+}
+
+.col-md-2 .form-label4{
+  padding-left: 100px;
+}
+
+.md-6 .form-labelf6{
+  padding-left: 400px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff; 
+  border-radius: 3px;  
+  font-size: 30px;
+}
+  .container .cadastro,h2{
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .col-12{
+    text-align:center;
+  }
+  
+  .container .cadastro, h6{
+    text-align: center;
+  }
+  
+  
+  

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Book.Net - Livros</title>
+  </head>
+
+  <body>
+    <div class="container-fluid  main">
+      <div class="row row-navbar">
+        <div class="col-12"><!-- Coluna navbar -->
+            
+            <nav class="navbar fixed navbar-expand-lg navbar-light">
+                <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand book" href="../Dashboard/index.html"
+                    ><h2><i class="bi bi-book"></i> Book.Net</h2></a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container">
+                    <!-- Navegação -->
+        
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link " aria-current="page" href="./index.html"
+                        >Minha Conta</a
+                        >
+                        <a class="nav-link" href="#">Quem somos</a>
+                        <a class="nav-link" href="#">Politicas</a>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                        >Faq</a
+                        >
+                    </div>
+                    </div>
+                    <!-- Pesquisa -->
+                    <div class="navbar-pesquisa">
+                    <form class="d-flex">
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Pesquisar"
+                        aria-label="Search"
+                    />
+                    <button class="btn btn-outline-primary" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                    </form>
+                    <button class="btn btn-outline-secondary client">
+                    Entrar <i class="bi bi-person-circle"></i>
+                    </button>
+                </div>
+                </div>
+                </nav>
+        </div>
+      </div>
+      <div class="container cadastro">
+          <h2>Cadastro Livro</h2>
+          <h6 style="font-weight: 300;"> Complete os campos com os dados do livro</h6>
+        <div class="row">
+          <h4>Dados Pessoais</h4>
+          <div class="col-12" style="margin: 10px;">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputIsbn" class="form-label">ISBN*</label>
+                <input type="text" class="form-control" id="inputIsbn" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputLivro" class="form-label">Nome do Livro*</label>
+                <input type="text" class="form-control" id="inputLivro" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputEditora" class="form-label">Editora*</label>
+                <input type="text" class="form-control" id="inputEditora" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputAutor" class="form-label">Autor*</label>
+                <input type="text" class="form-control" id="inputAutor" required>
+              </div>
+              <div class="col-3">
+                <label for="inputAno" class="form-label">Ano de Publicação*</label>
+                <input type="date" class="form-control" id="inputAno" required >
+              </div>
+              <div class="col-md-3">
+                <label for="inputModal" class="form-label">Modalidade*</label>
+                <select id="inputModal" class="form-control"required >
+                  <option>Aluguel</option>
+                  <option>Venda</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="inputAssunto" class="form-label">Assunto*</label>
+                <input type="text" class="form-control" required id="inputAssunto" >
+              </div>
+              <div class="col-md-3">
+                <label for="inputAno" class="form-label">Origem*</label>
+                <select id="inputAno" class="form-control"required>
+                  <option>Nacional</option>
+                  <option>Importado</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputQtd" class="form-label">Quantidade*</label>
+                <input type="text" class="form-control" id="inputQtd" required>
+              </div>
+              <div class="col-md-6"></div>
+              <div class="col-md-4">
+                <label for="inputPrecoVenda" class="form-label">Preço de Venda</label>
+                <input type="text" class="form-control" id="inputPrecoVenda">
+              </div>
+              <div class="col-md-4">
+                <label for="inputPrecoAluguel" class="form-label">Preço de Aluguel</label>
+                <input type="text" class="form-control" id="inputPrecoAluguel">
+              </div>
+              <div class="col-md-4">
+                <label for="inputPrecoRenovAlugel" class="form-label">Preço de Renovação de Aluguel</label>
+                <input type="text" class="form-control" id="inputPrecoRenovAlugel">
+              </div>
+              <div class="col-md-12">
+                <br>
+                <input class="btn btn-primary" type="submit" value="Cadastrar">
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

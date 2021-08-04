@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ifma.Play</title>
+  <link rel="stylesheet" type="text/css" href="../css/padrao.css">
+  <link rel="stylesheet" type="text/css"
+    href="..\cadastro_artista\styles.css">
+  <title>Cadastro</title>
+</head>
+
+
+<body>
+  <div class="container-fluid  main">
+    <header class="logo">
+      <a href="..\html\index.html" style="font-size:1.5em"> Ifma.Play</a>
+      <ul>
+        <li><a href="..\cadastro_artista\CadastrarAtista.html">Cadastro</a>
+        </li>
+        <li><a href="">Edição</a></li>
+        <li><a href="">Remoção</a></li>
+        <li><a href="">Relatorio</a></li>
+      </ul>
+
+    </header>
+
+    <div class="container cadastro">
+      <h2>Cadastro: Artista e Música</h2>
+      <h6 style="font-weight: 300;"> Complete os campos</h6>
+      <nav id="dashbord">
+        <ul>
+          <li><a href="..\html\index.html">Home</a></li>
+          <li><a href="">Todas as Musicas</a></li>
+          <li><a href="../ListarAlbum/listarAlbum.html">Musicas por Album</a></li>
+          <li><a href="">Buscar Artista</a></li>
+
+        </ul>
+
+      </nav>
+      <div class="col-12">
+        <h4>Artista</h4>
+
+        <br>
+
+        <form class="row g-3">
+          <div class="col-md-8">
+            <div>
+              <label for="inputNomeArtista ">Nome completo*</label>
+              <input type="text " id="inputNomeArtista" placeholder="Digite o nome complto do artista" required>
+            </div>
+
+            <br>
+
+            <div class="checkbox">
+              <label for="inputautorInterprete " class="chk">Artista</label>
+              <br>
+
+              <input type="checkbox" id="box1" name="chk1" value="Autor"> Autor
+              <input type="checkbox" id="box2" name="chk1" value="Interprete"> Interprete
+            </div>
+
+            <br>
+
+            <div class="col-md-4">
+              <label for="inputNasc" class="label1">Data de Nascimento*</label>
+              <input type="date" id="inputNasc" required>
+              <label for="inputpais" class="label2">Nacionalidade*</label>
+              <input type="text" id="inputPais" placeholder="Digite o país de nascimento" required>
+            </div>
+
+            <br>
+
+          </div>
+
+          <div>
+            <h5>Música</h5>
+            <br>
+            <div>
+              <div class="col-md-2">
+                <label for="inputalbum_ano" class="form-label3">Album Nome*</label>
+                <input type="text" id="inputalbum" placeholder="Digite o nome do album" required>
+                <label for="inputalbum_ano" class="form-label4">Album Ano</label>
+                <input type="date" id="inputdate" required>
+              </div>
+              <br>
+              <br>
+              <div class="md-6">
+                <label for="inputtotal_musica" class="form-label5">Total de Música*</label>
+                <input type="text" id="inputtotal_musica" placeholder="Digite o total de musica" required>
+                <label for="inputaduracao" class="form-labelf6">Duração</label>
+                <input type="time" id="inputtime" required>
+              </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="col-md-12">
+              <br>
+              <input class="btn btn-primary" type="submit" value="Cadastrar" />
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <footer id="rodape">
+        <h4>Todos os direitos reservados a Leonardo Barboza <br> e Joziel Monteiro</h4>
+      </footer>
+
+
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
